@@ -22,3 +22,4 @@
 2.使用setvalue设置节点的值<br>
 3.使用getvalue或者wgetvalue获取节点的值值<br>
 4.使用getchildren或者wgetchildren获取节点的字节点<br>
+5.编译时头文件需要添加-I/usr/local/include/c-client-src路径，使用的库需要添加/usr/local/lib/libzookeeper_mt.so，其中“/usr/local/”路径为使用默认路径编译和安装zookeeper 的C API情况下的，若安装时有修改则使用修改的路径
