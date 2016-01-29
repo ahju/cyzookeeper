@@ -9,7 +9,7 @@
 5.test_zk.cpp       测试cyzookeeper的工程实现文件<br>
 6.zookeeper_DEBUG.mk 测试工程的makefile文件<br>
 7.zookeeper.prj     测试cyzookeeper的工程文件<br>
-8.adsvr.conf        测试配置文件同步的配置文件
+8.adsvr.conf        测试配置文件同步的配置文件<br>
 
 ## 环境说明
 1.zookeeper的基本概念可以网上搜，非常多，最简单的理解即为zookeeper可以维护一棵树，数的每个节点都可以有值，可以添加删除节点，并监控节点值的变化。<br>
@@ -18,7 +18,7 @@
 2.编译及使用前需要编译安装zookeeper C API作为支撑库，详细可网上查询<br>
 
 ## 使用说明
-1.创建cyzookeeper对象，传入zookeper服务器地址及端口
-2.使用setvalue设置节点的值
-3.使用getvalue或者wgetvalue获取节点的值值
-4.使用getchildren或者wgetchildren获取节点的字节点
+1.创建cyzookeeper对象，传入zookeper服务器地址及端口<br>
+2.使用setvalue设置节点的值<br>
+3.使用getvalue或者wgetvalue获取节点的值值<br>
+4.使用getchildren或者wgetchildren获取节点的字节点<br>
